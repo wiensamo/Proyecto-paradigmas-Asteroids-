@@ -1,0 +1,17 @@
+<!--Wilson Sanchez
+    home screen FXML file-->
+
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+
+
+<Pane fx:controller="sample.MenuController"
+          xmlns:fx="http://javafx.com/fxml"
+           prefHeight="800"
+           prefWidth="1200">
+
+<Button text = "Play Game" layoutX="550" layoutY="400" onAction="#gotoGame"/>
+<Button text = "Quit" layoutX="570" layoutY="450" onAction="#close"/>
+</Pane>
+

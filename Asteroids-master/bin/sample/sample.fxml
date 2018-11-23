@@ -1,0 +1,23 @@
+<!--Wilson Sanchez
+    game view FXML file
+    How can something so short cause us so much pain?-->
+
+
+<?import javafx.scene.layout.Pane?>
+<?import sample.*?>
+<?import javafx.scene.Group?>
+<Pane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml"
+           prefHeight="800"
+           prefWidth="1200">
+<Group  fx:id = "spaceshipGroup">
+    <Spaceship fx:id = "spaceship"/>
+</Group>
+<Group fx:id = "asteroidGroup">
+</Group>
+<Group fx:id = "bulletGroup">
+</Group>
+<Group fx:id="scoreboardGroup">
+</Group>
+</Pane>
+
